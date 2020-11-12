@@ -1,8 +1,8 @@
 # anomaly-project
-Table of Content
-* Wrangle[#wrangle]
-* Findings[#findings]
-* Data Dictionary[#data-dictionary]
+- [anomaly-project](#anomaly-project)
+- [Wrangle](#wrangle)
+- [Findings](#findings)
+- [Data Dictionary](#data-dictionary)
 
 
 # [Wrangle](https://github.com/datastraine/anomaly-project/blob/main/wrangle.py)
