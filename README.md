@@ -1,8 +1,8 @@
 # anomaly-project
 Table of Content
-* Wrangle[#Wrangle]
-* Findings[#Findings]
-* Data Dictionary[#Data-Dictionary]
+* Wrangle[#wrangle]
+* Findings[#findings]
+* Data Dictionary[#data-dictionary]
 
 
 # [Wrangle](https://github.com/datastraine/anomaly-project/blob/main/wrangle.py)
@@ -17,7 +17,7 @@ After being handed the cohort.csv and the anonymized-curriculum-access.txt files
    
 It then separates the WebDev and Data Science curriculums in their own DFs. Finally, it returns data, webdev, ds, and cohort DFs. A full breakdown of the code can be found [here](https://github.com/datastraine/anomaly-project/blob/main/wrangle.py). 
 
-# Findings
+# [Findings]((https://github.com/datastraine/anomaly-project/blob/main/exploration.ipynb))
 A full breakdown of the findings can be found in the [exploration.ipynb](https://github.com/datastraine/anomaly-project/blob/main/exploration.ipynb) notebook. The key findings of this exploration are:
   * When a cohort views a lesson significantly more than other cohorts they do not typically surpass 20% of the total number of views for that page across all cohorts for WebDev. It is reasonable to assume this will continue for Data Science as more people go through the program.
   * The least viewed pages are typically viewed 3 times or less.
@@ -27,4 +27,26 @@ A full breakdown of the findings can be found in the [exploration.ipynb](https:/
 # Data Dictionary
 Below is the data dictionary
 
-
+| Name  | Description  |
+|---|---|
+| datetime | The date and time (to the seconds) that a web page was accessed. |
+| date |  The date that a web page was accessed.  |
+| day | The day name that a web page was accessed. |
+| hour | The hour of the day that a web page was accessed. In 24 hour format |
+| month  | The two digit month that a web page was accessed. |
+| ip | The ip addressed that accessed a web page  |
+| page | The web page accessed.   |
+| page_viewed | The web page accessed.   |
+| user_id | The unique id for each user |
+| cohort_id | The unique id associated for each cohort |
+| name | The name associated with the cohort_id  |
+| start_date | The beginning of class for a cohort  |
+| end_date | The final day of class for a cohort  |
+| program_id  | The unique id for a program |
+| classtype | The type of class (Web or Data Science) and location of each program id |
+| program  |  The type of class (Web or Data Science) of each program |
+| location | The city each program is located in |
+| hits | The number of web visit  |
+| probability | The likelihood of the event in question happening |
+| total_hits | The sum of all web visit across the sections of data being looked at |
+| mean_hits | The average of all web visits across the sections of data being looked at  |
