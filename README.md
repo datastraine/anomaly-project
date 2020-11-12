@@ -17,7 +17,7 @@ After being handed the cohort.csv and the anonymized-curriculum-access.txt files
    
 It then separates the WebDev and Data Science curriculums in their own DFs. Finally, it returns data, webdev, ds, and cohort DFs. A full breakdown of the code can be found [here](https://github.com/datastraine/anomaly-project/blob/main/wrangle.py). 
 
-# [Findings]((https://github.com/datastraine/anomaly-project/blob/main/exploration.ipynb))
+# [Findings](https://github.com/datastraine/anomaly-project/blob/main/exploration.ipynb)
 A full breakdown of the findings can be found in the [exploration.ipynb](https://github.com/datastraine/anomaly-project/blob/main/exploration.ipynb) notebook. The key findings of this exploration are:
   * When a cohort views a lesson significantly more than other cohorts they do not typically surpass 20% of the total number of views for that page across all cohorts for WebDev. It is reasonable to assume this will continue for Data Science as more people go through the program.
   * The least viewed pages are typically viewed 3 times or less.
