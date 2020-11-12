@@ -1,9 +1,20 @@
-# anomaly-project
-- [anomaly-project](#anomaly-project)
+- [Anomaly Project](#anomaly-project)
 - [Wrangle](#wrangle)
 - [Findings](#findings)
 - [Data Dictionary](#data-dictionary)
+  
+# Anomaly Project
+The goal of this project is to answer the following set of questions about users who access the CodeUp(TM) class curriculum.
 
+1. Which lesson appears to attract the most traffic consistently across cohorts (per program)?
+2. Is there a cohort that referred to a lesson significantly more that other cohorts seemed to gloss over? 
+3. Are there students who, when active, hardly access the curriculum? If so, what information do you have about these students? 
+4. Is there any suspicious activity, such as users/machines/etc accessing the curriculum who shouldn’t be? Does it appear that any web-scraping is happening? Are there any suspicious IP addresses? Any odd user-agents? 
+5. At some point in the last year, ability for students and alumni to cross-access curriculum (web dev to ds, ds to web dev) should have been shut off. Do you see any evidence of that happening? Did it happen before? 
+6. What topics are grads continuing to reference after graduation and into their jobs (for each program)? 
+7. Which lessons are least accessed? 
+
+All questions except question #5 were accessed within the time constraints allowed. Below is how this project was undertaken and a summary of its findings.
 
 # [Wrangle](https://github.com/datastraine/anomaly-project/blob/main/wrangle.py)
 **Note:** Files for this task were provided off network and connect be retrieved from the via the net. To get access you must request access from the DBA.
